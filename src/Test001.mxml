@@ -7,8 +7,6 @@
 	</fx:Declarations>
 	<s:VGroup id="g">
 		<s:Label text="hi"/>
-		<s:Label text="hi"/>
-		<s:Label text="hi"/>
 	</s:VGroup>
 	<s:Button click="{g.visible == true ? g.visible = false : g.visible = true}"/>
 </s:Application>
